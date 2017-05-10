@@ -1,6 +1,6 @@
 # Oracle InstantClient
 
-Please follow up rules on the Oracle website (http://www.oracle.com/technetwork/topics/linuxsoft-082809.html).
+Please follow up rules on the Oracle website (x86 http://www.oracle.com/technetwork/topics/linuxsoft-082809.html) (x64 http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html).
 
 ## Goal
 
