@@ -7,3 +7,7 @@ Please follow up rules on the Oracle website (x86 http://www.oracle.com/technetw
 This repository provides easy to download Oracle instantclient used in Dockerfiles.
 
 Thank you.
+
+## Installation
+
+Take a look at [installation guide for Ubuntu](https://help.ubuntu.com/community/Oracle%20Instant%20Client).
