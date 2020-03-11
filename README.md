@@ -36,8 +36,8 @@ RUN apt-get update && \
         php7.2-dev && \
    rm /etc/nginx/sites.d/default
 
-RUN wget https://github.com/bumpx/oracle-instantclient/raw/master/instantclient-basic-linux.x64-12.2.0.1.0.zip -O /tmp/instantclient-basic-linux.x64-12.2.0.1.0.zip && \
-    wget https://github.com/bumpx/oracle-instantclient/raw/master/instantclient-sdk-linux.x64-12.2.0.1.0.zip -O /tmp/instantclient-sdk-linux.x64-12.2.0.1.0.zip && \
+RUN wget https://github.com/pwnlabs/oracle-instantclient/raw/master/instantclient-basic-linux.x64-12.2.0.1.0.zip -O /tmp/instantclient-basic-linux.x64-12.2.0.1.0.zip && \
+    wget https://github.com/pwnlabs/oracle-instantclient/raw/master/instantclient-sdk-linux.x64-12.2.0.1.0.zip -O /tmp/instantclient-sdk-linux.x64-12.2.0.1.0.zip && \
     unzip /tmp/instantclient-basic-linux.x64-12.2.0.1.0.zip -d /usr/local/ && \
     unzip /tmp/instantclient-sdk-linux.x64-12.2.0.1.0.zip -d /usr/local/
 
